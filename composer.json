@@ -1,0 +1,25 @@
+{
+    "name": "conceptive/reindex",
+    "description": "Backend Reindex allows store admins to update individual.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+      "OSL-3.0"
+    ],
+    "authors": [
+      {
+        "name": "Bharat Mali",
+        "email": "bharat.conceptivecommerce@gmail.com",
+        "homepage": "https://conceptivecommerce.com",
+        "role": "Leader"
+      }
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Conceptive\\Reindex\\": ""
+      }
+    }
+  }
