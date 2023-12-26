@@ -1,9 +1,10 @@
 <?php
 
-namespace Conceptive\Reindex\Controller\Adminhtml\indexer;
+namespace Conceptive\Reindex\Controller\Adminhtml\Indexer;
 
 class Process extends \Magento\Backend\App\Action
 {
+    protected $indexerFactory;
     
     public function __construct(
         \Magento\Backend\App\Action\Context $context,
