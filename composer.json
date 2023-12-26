@@ -1,5 +1,5 @@
 {
-    "name": "conceptive/reindex",
+    "name": "conceptive/reindex-magento2",
     "description": "Backend Reindex allows store admins to update individual.",
     "type": "magento2-module",
     "version": "1.0.1",
